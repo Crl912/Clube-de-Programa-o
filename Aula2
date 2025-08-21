@@ -1,0 +1,17 @@
+print("Hello world")
+
+
+nota1 = input('digte o primeiro numero:')
+nota2 = input('digte o segundo numero:')
+nota3 = input('digte o terceiro numero:')
+nota4 = input('digte o quarto numero:')
+
+nota1 = int(nota1)
+nota2 = int(nota2)
+nota3 = int(nota3)
+nota4 = int(nota4)
+
+res = (nota1 + nota2 + nota3 + nota4)/4
+
+if res >= 6  : print('O aluno foi aprovado')
+if res <6 : print ('O aluno foi reprovado')
