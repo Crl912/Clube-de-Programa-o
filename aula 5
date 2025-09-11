@@ -1,0 +1,9 @@
+import random
+
+opcoes = ["papel", "pedra", "tesoura"]
+
+comp = random.randint(0, 2)
+
+escolha = input("jokenpô: ")
+
+if (escolha == 'papel' and opcoes[comp] == 'tesoura')
