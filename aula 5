@@ -28,3 +28,13 @@ if (escolha == 'tesoura' and opcoes[comp] == 'papel') :
     print('voce venceu')
 if (escolha == 'tesoura' and opcoes[comp] == 'tesoura') : 
     print('empate')
+
+
+if (escolha == 'morango do amor') :
+    print('ela é um morango do amor')
+    time.sleep(1)
+    print('nao ta no menu')
+    time.sleep(1)
+    print('ela é fofinha e bravinha tipo um labubu')
+    time.sleep(2)
+    print('ela colore meu mundo tipo um bob goods')
