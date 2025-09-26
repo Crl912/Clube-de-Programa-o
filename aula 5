@@ -6,4 +6,25 @@ comp = random.randint(0, 2)
 
 escolha = input("jokenpô: ")
 
-if (escolha == 'papel' and opcoes[comp] == 'tesoura')
+if (escolha == 'papel' and opcoes[comp] == 'tesoura') :
+    print('voce perdeu')
+if (escolha == 'papel' and opcoes[comp] == 'pedra') :
+    print('voce venceu')
+if (escolha == 'papel' and opcoes[comp] == 'papel') : 
+    print('empate')
+    
+    
+if (escolha == 'pedra' and opcoes[comp] == 'papel') :
+    print('voce perdeu')
+if (escolha == 'pedra' and opcoes[comp] == 'tesoura') :
+    print('voce venceu')
+if (escolha == 'pedra' and opcoes[comp] == 'pedra') : 
+    print('empate')
+    
+
+if (escolha == 'tesoura' and opcoes[comp] == 'pedra') :
+    print('voce perdeu')
+if (escolha == 'tesoura' and opcoes[comp] == 'papel') :
+    print('voce venceu')
+if (escolha == 'tesoura' and opcoes[comp] == 'tesoura') : 
+    print('empate')
