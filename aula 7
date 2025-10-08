@@ -3,32 +3,32 @@ while(1):
         import random
 
         opcoes = ["papel", "pedra", "tesoura"]
-        
+        print('1=PAPEL 2=PERDRA 3=TESOURA')
         comp = random.randint(0, 2)
         
         escolha = input("jokenpô: ")
         
-        if (escolha == 'papel' and opcoes[comp] == 'tesoura') :
+        if (escolha == '1' and opcoes[comp] == 'tesoura') :
             print('voce perdeu')
-        if (escolha == 'papel' and opcoes[comp] == 'pedra') :
+        if (escolha == '1' and opcoes[comp] == 'pedra') :
             print('voce venceu')
-        if (escolha == 'papel' and opcoes[comp] == 'papel') : 
+        if (escolha == '1' and opcoes[comp] == 'papel') : 
             print('empate')
             
             
-        if (escolha == 'pedra' and opcoes[comp] == 'papel') :
+        if (escolha == '2' and opcoes[comp] == 'papel') :
             print('voce perdeu')
-        if (escolha == 'pedra' and opcoes[comp] == 'tesoura') :
+        if (escolha == '2' and opcoes[comp] == 'tesoura') :
             print('voce venceu')
-        if (escolha == 'pedra' and opcoes[comp] == 'pedra') : 
+        if (escolha == '2' and opcoes[comp] == 'pedra') : 
             print('empate')
             
         
-        if (escolha == 'tesoura' and opcoes[comp] == 'pedra') :
+        if (escolha == '3' and opcoes[comp] == 'pedra') :
             print('voce perdeu')
-        if (escolha == 'tesoura' and opcoes[comp] == 'papel') :
+        if (escolha == '3' and opcoes[comp] == 'papel') :
             print('voce venceu')
-        if (escolha == 'tesoura' and opcoes[comp] == 'tesoura') : 
+        if (escolha == '3' and opcoes[comp] == 'tesoura') : 
             print('empate')
         
         
@@ -98,6 +98,6 @@ while(1):
         if escolha1 == 'area':
             area = menu_area()
         if escolha1 == 'jokempo':
-            jokempo = jokempo()
+            jogo = jokempo()
     
     menu_jokempo()
